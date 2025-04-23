@@ -45,7 +45,7 @@
 }
 
 .nav-links a:hover {
-  color: #007bff;
+  color: #e32222d5;
 }
 
 .auth-buttons {
@@ -56,7 +56,7 @@
 
 .login-link {
   font-size: 1rem;
-  color: #007bff;
+  color: #e32222d5;
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
   position: absolute;
   width: 10%;
   height: 30%;
-  background-color: #cceaff;
+  background-color: #e52b2bb6;
   border-bottom-right-radius: 20%;
   z-index: 0;
 }
@@ -127,13 +127,13 @@
 }
 
 .highlight {
-  color: #007bff;
+  color: #e32222d5;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .highlight-text {
-  color: #007bff;
+  color: #e32222d5;
   font-weight: 600;
 }
 
@@ -156,23 +156,25 @@
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #e32222d5;
+  ;
   color: white;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #fc0000;
 }
 
 .btn-outline {
   background: transparent;
   color: #007bff;
-  border: 2px solid #007bff;
+  border: 2px solid #e32222d5;
+  ;
 }
 
 .btn-outline:hover {
-  background-color: #007bff;
+  background-color: #fc0000;
   color: white;
 }
 
