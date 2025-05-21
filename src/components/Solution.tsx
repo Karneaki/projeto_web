@@ -17,7 +17,7 @@ export default function Solution() {
           <h3>Sob medida para você</h3>
         </div>
         <p>
-          A <strong className="primary">DonaFrost</strong> já conquistou
+          A <strong className="primary">Not Defined</strong> já conquistou
           diversos clientes. Veja como podemos te ajudar.
         </p>
       </header>
