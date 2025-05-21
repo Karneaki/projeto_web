@@ -4,27 +4,27 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  background-color: #fc0000;
+  background-color: var(--primary-color);
 
-  color: white;
+  color: var(--text-color);
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #e32222d5;
+  background-color: var(--secondary-color);
+
 }
 
 button.btn-secondary {
   background-color: transparent;
-  color: #fc0000;
+  color: var(--primary-color);
 
-  border: 2px solid #fc0000;
 
 }
 
 button.btn-secondary:hover {
-  background-color: #e32222d5;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 /* Botões */
@@ -38,24 +38,24 @@ button.btn-secondary:hover {
 }
 
 .btn-primary {
-  background-color: #e32222d5;
+  background-color: var(--secondary-color);
   ;
-  color: white;
+  color: var(--text-color);
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #fc0000;
+  background-color: var(--primary-color);
 }
 
 .btn-outline {
   background: transparent;
   color: #007bff;
-  border: 2px solid #e32222d5;
+  border: 2px solid var(--secondary-color);
   ;
 }
 
 .btn-outline:hover {
-  background-color: #fc0000;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }

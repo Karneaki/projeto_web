@@ -10,7 +10,7 @@
 }
 
 .header.scrolled {
-  background-color: white;
+  background-color: var(--light-gray);
 }
 
 .header:not(.scrolled) {
@@ -20,8 +20,9 @@
 
 .head-div {
   display: flex;
+  width: 80%;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -45,18 +46,12 @@
 }
 
 .nav-links a:hover {
-  color: #e32222d5;
-}
-
-.auth-buttons {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+  color: var(--primary-color);
 }
 
 .login-link {
   font-size: 1rem;
-  color: #e32222d5;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -91,7 +86,7 @@
   position: absolute;
   width: 10%;
   height: 30%;
-  background-color: #e52b2bb6;
+  background-color: var(--secondary-color);
   border-bottom-right-radius: 20%;
   z-index: 0;
 }
@@ -127,13 +122,13 @@
 }
 
 .highlight {
-  color: #e32222d5;
+  color: var(--primary-color);
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .highlight-text {
-  color: #e32222d5;
+  color: var(--primary-color);
   font-weight: 600;
 }
 
@@ -156,7 +151,7 @@
 }
 
 .btn-primary {
-  background-color: #e32222d5;
+  background-color: var(--primary-color);
   ;
   color: white;
   border: none;
@@ -169,7 +164,7 @@
 .btn-outline {
   background: transparent;
   color: #007bff;
-  border: 2px solid #e32222d5;
+  border: 2px solid var(--primary-color);
   ;
 }
 

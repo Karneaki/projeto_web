@@ -62,8 +62,8 @@ export default function Hero() {
             </ul>
           </nav>
 
-          <div className="auth-buttons desktop-only">
-            <Button text="Cadastre-se" />
+          <div className="desktop-only">
+            <Button secondary text="Cadastre-se" />
           </div>
 
           <div
@@ -96,7 +96,7 @@ export default function Hero() {
                 <a href="#" className="login-link">
                   Login
                 </a>
-                <button className="btn-primary full">Cadastre-se</button>
+                <Button secondary text="Cadastre-se" />
               </div>
             </nav>
           </div>
