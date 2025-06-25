@@ -5,7 +5,7 @@ import TestimonialCard from "./TestimonialCard";
 export default function Testimonial() {
   return (
     <section id="testimonials">
-      <header>
+      <div className="header-tst">
         <span>
           <p className="desktop-only">Conselho de quem conhece</p>
         </span>
@@ -15,7 +15,7 @@ export default function Testimonial() {
           aquela ideia de que comida congelada tem de ser algo sem gosto,
           acompanhe abaixo os testemunhos de quem já comprou e aprovou.
         </p>
-      </header>
+      </div>
       <section className="carousel">
         <div className="carousel-content">
           <TestimonialCard></TestimonialCard>

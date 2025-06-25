@@ -6,10 +6,10 @@ import Button from "./Button";
 export default function Pricing() {
   return (
     <section id="pricing" className="container">
-      <header>
+      <div className="header-prc">
         <p className="desktop-only">Planos e preços</p>
         <h2>Nossos planos</h2>
-      </header>
+      </div>
       <section className="even-columns gap-1.5">
         <div className="pricing-card">
           <span className="plan">
@@ -30,7 +30,7 @@ export default function Pricing() {
         </div>
         <div className="pricing-card premium">
           <span className="bonus">
-            <p>1º MÊS COM DESCONTO</p>
+            <p>1º MÊS GRÁTIS</p>
           </span>
           <span className="plan">
             <h3>Premium</h3>

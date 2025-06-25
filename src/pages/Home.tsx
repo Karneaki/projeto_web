@@ -2,6 +2,8 @@ import Hero from "../components/Hero";
 import Solution from "../components/Solution";
 import Testimonial from "../components/Testimonials";
 import Pricing from "../components/Pricing";
+import ContactForm from "../components/Contact";
+import Footer from "../components/Footer";
 import "../styles/globals.css";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Solution />
       <Testimonial />
       <Pricing />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

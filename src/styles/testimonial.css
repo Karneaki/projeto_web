@@ -6,7 +6,7 @@
     padding-block: 4rem;
     gap: 2rem;
 
-    header {
+    .header-tst {
         display: flex;
         width: fit-content;
         text-align: center;
@@ -16,7 +16,7 @@
         align-items: center;
     }
 
-    header :first-child {
+    .header-tst :first-child {
         color: var(--primary-color);
         width: fit-content;
         font-weight: bold;
